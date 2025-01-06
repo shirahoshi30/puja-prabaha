@@ -1,0 +1,89 @@
+/* CustomersHome Container */
+.customers-home-container {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Heading */
+  .customers-heading {
+    font-size: 2.5rem;
+    font-family: "Pirata One", serif;
+    color: #C0353C;
+    margin-bottom: 20px;
+  }
+  
+  /* Reviews Container */
+  .reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden; /* Ensures smooth sliding effect */
+  }
+  
+  /* Review Card */
+  .review-card {
+    background: #fff;
+    border: 2px solid #C0353C;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Fixed width for cards */
+    text-align: left; /* Aligns content to the left */
+  }
+  
+  /* Review Rating (Stars) */
+  .review-rating {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 1.25rem;
+  }
+  
+  /* Review Name */
+  .review-name {
+    font-size: 1.2rem;
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Review Feedback */
+  .review-feedback {
+    font-size: 1rem;
+    font-family: "Jaini Purva", serif;
+    color: #555;
+  }
+  
+  /* Navigation Buttons */
+  .navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .arrow-button {
+    background-color: #C0353C;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+  }
+  
+  .arrow-button:hover {
+    background-color: #d9534f;
+    transform: scale(1.1);
+  }
+  

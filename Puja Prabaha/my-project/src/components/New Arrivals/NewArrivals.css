@@ -1,0 +1,332 @@
+/* Shop Container */
+.shop-container {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f4f4f4; /* Light background color */
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-family: "Jaini Purva", serif;
+    color: black;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px; /* Adjusted for alignment */
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+    color: #C0353C;
+}
+
+/* Section Content */
+.shop-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.shop-sidebar {
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+    border-right: 2px solid #C0353C;
+    position: relative;
+    top: 0;
+}
+
+.shop-sidebar h3 {
+    font-family: "Pirata One", serif;
+    color: #C0353C;
+    font-size: 1.5rem;
+}
+
+.shop-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shop-sidebar li {
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Price Filter */
+.price-filter {
+    margin-top: 20px;
+}
+
+.price-filter h4 {
+    font-family: "Pirata One", serif;
+    color: #C0353C;
+    font-size: 1.2rem;
+}
+
+.price-filter input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Apply Filter Button */
+.price-filter .apply-filter {
+    margin-top: 10px;
+    width: 250px; /* Fixed width */
+    padding: 12px 25px; /* Adjust padding as needed */
+    background-color: #C0353C;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-family: "Pirata One", serif;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.price-filter .apply-filter:hover {
+    background-color: #d9534f;
+    transform: scale(1.05);
+}
+
+/* Main Shop Section */
+.shop-main {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Shop Header */
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px; /* Adjusted for alignment */
+}
+
+.shop-header h2 {
+    font-size: 2.5rem;
+    font-family: "Pirata One", serif;
+    color: #C0353C;
+}
+
+/* Shop Header Controls */
+.shop-header-controls {
+    font-family: "Jaini Purva", serif;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.shop-header-controls select {
+    padding: 5px;
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #C0353C;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four products per row */
+    gap: 15px;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+/* Product Card */
+.product-card {
+    text-align: center;
+    border: 2px solid #C0353C;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%; /* Ensure it fits within the container */
+    max-width: 250px; /* Reduced width */
+    min-height: 350px;
+}
+
+/* Product Image */
+.product-image {
+    width: 230px; /* Reduced width */
+    height: 250px; /* Reduced height */
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+/* Product Name */
+.product-name {
+    font-size: 1.25rem;
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Product Price */
+.product-prices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.current-price {
+    font-size: 1.2rem;
+    font-family: "Jaini Purva", serif;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/* View Details */
+.view-details {
+    font-family: "Jaini Purva", serif;
+    color: #2a2a2a;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.view-details:hover {
+    color: #C0353C;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+.pagination .dots {
+    font-size: 14px;
+    padding: 0 8px;
+    cursor: default;
+    color: #C0353C;
+  }
+  
+
+.page-btn {
+    padding: 10px 20px;
+    border: 1px solid #C0353C;
+    background-color: white;
+    color: #C0353C;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Jaini Purva", serif;
+}
+
+.page-btn:hover {
+    background-color: #C0353C;
+    color: white;
+}
+
+.page-btn.active {
+    background-color: #C0353C;
+    color: white;
+}
+
+.page-btn.dots {
+    border: none;
+    background-color: transparent;
+    color: #C0353C;
+    cursor: default;
+    font-family: "Jaini Purva", serif;
+    font-size: 1.2rem;
+}
+
+.arrow-btn {
+    font-size: 1.5rem;
+    background-color: white;
+    border: 1px solid #C0353C;
+    color: #C0353C;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.arrow-btn:hover {
+    background-color: #C0353C;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+    .shop-container {
+        padding: 10px;
+    }
+
+    .shop-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .shop-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .shop-header-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .shop-header-controls select {
+        margin-top: 10px;
+    }
+
+    .product-card {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .product-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .product-name {
+        font-size: 0.9rem;
+    }
+
+    .product-prices {
+        flex-direction: column;
+    }
+
+    .current-price {
+        font-size: 1rem;
+    }
+
+    .pagination {
+        flex-direction: column;
+    }
+}
