@@ -1,0 +1,34 @@
+{
+    "database" :
+        {
+            "user": "root",
+            "password": "",
+            "host": "localhost",
+            "port": 3306,
+            "name": "pujaprabha"
+        },
+
+    "jwt" :
+    {
+
+        "secret" : "secret_key"
+    },
+
+    "pagination":
+    {
+
+        "page_size":10
+
+    },
+
+    "huaweiOBS": 
+    {
+
+        "accessKeyID":"" ,
+        "secretAccessKey": "",
+        "bucketName": "",
+        "endpoint": ""
+
+    }
+    
+}
