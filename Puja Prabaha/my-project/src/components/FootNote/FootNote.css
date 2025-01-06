@@ -1,0 +1,282 @@
+/* Space before Stay Connected Section */
+.pre-stay-connected-space {
+  height: 20px; /* Adjust as necessary for more space */
+}
+
+/* Stay Connected Section */
+.stay-connected-wrapper {
+  position: relative;
+  z-index: 2;
+  margin-top: 50px; /* This will ensure space above Stay Connected */
+}
+
+.stay-connected-box {
+  background-color: #C0353C;
+  padding: 40px 20px;
+  color: white;
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+}
+
+.stay-connected-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.stay-connected-left,
+.stay-connected-right {
+  width: 50%;
+  text-align: center;
+}
+
+.stay-connected-heading {
+  font-size: 2.5rem;
+  font-family: "Pirata One", serif;
+  margin-bottom: 10px;
+}
+
+.stay-connected-text {
+  font-size: 1.2rem;
+  font-family: "Jaini Purva", serif;
+  margin-bottom: 30px;
+}
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.email-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.email-icon {
+  color: #C0353C;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  font-family: "Jaini Purva", serif;
+  color: #333;
+  background: none;
+}
+
+.email-input::placeholder {
+  color: #aaa;
+}
+
+.subscribe-button {
+  background-color: #f8f8f8;
+  color: #C0353C;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  font-family: "Pirata One", serif;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+/* Divider Below Stay Connected */
+.divider-image {
+  margin-top: 85px; /* Ensures that divider has space after Stay Connected box */
+  text-align: center;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+ 
+
+  z-index: 8; /* Ensures divider stays below Stay Connected box */
+}
+
+.footnote-container {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), /* Dark overlay */
+    rgba(0, 0, 0, 0.5)
+  ), url("../../assets/FootNote/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 10px;
+  padding-bottom: 20px; /* Adjust as needed */
+  position: relative;
+  z-index: 1;
+}
+
+
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Space between grid items */
+  max-width: 1200px;
+  margin: 50px auto 0; /* Center the grid and space it from the divider */
+}
+
+.footer-section h3 {
+  font-family: "Pirata One", serif;
+  color: black; /* Footnote headings text color */
+}
+
+.footer-section p,
+.footer-section ul li,
+.footer-bottom {
+  color: darkgray; /* Rest of the text color is dark gray */
+}
+
+.links h4,
+.help h4,
+.faq h4 {
+  font-family: "Pirata One", serif;
+  color: black; /* Section headings text color */
+}
+
+/* Ensure list style is removed */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Adjust individual list items */
+li {
+  font-family: "Jaini Purva", serif;
+  margin: 8px 0; /* Add spacing between each list item */
+  color: #2a2a2a !important; /* Apply the #474747 color to list items */
+}
+
+/* Footer Bottom Text */
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px; /* Reduced margin to remove extra space */
+  margin-bottom:-10px; /* Remove extra space at the bottom */
+  font-family: "Jaini Purva", serif;
+  font-size: 0.9rem;
+}
+
+/* Shift only Company, Help, and FAQ sections to the right */
+.links, .help, .faq {
+  padding-left: 100px; /* Shift these sections to the right */
+  margin-top:50px; /* Add top margin for more space between sections */
+}
+
+.links li, .help li, .faq li {
+  margin-bottom: 15px; /* Add more space between list items within the sections */
+}
+
+/* Logo Styling in About Section */
+.about-logo {
+  display: block;
+  margin: 20px 20px; /* Center the logo and add spacing below */
+  width: 150px; 
+  height: 150px; 
+}
+
+/* Update the font color of Explore section */
+.about-text {
+  color: #2a2a2a !important; /* Apply the #474747 color to Explore text */
+  font-family: "Jaini Purva", serif;
+  margin-bottom: 20px; /* Add space below the text */
+}
+
+.follow-us-text {
+  color: black !important; /* Change font color to black */
+  font-family: "Jaini Purva", serif;
+  margin-bottom: 0; /* Removed extra space */
+}
+
+/* Social Media Icons: Smaller Size and Left Alignment */
+.social-icons {
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left */
+  margin-top: 20px;
+}
+
+.social-icons .react-social-icon {
+  width: 15px; /* Smaller icon size */
+  height: 15px; /* Smaller icon size */
+  margin-right: 8px; /* Reduce space between icons */
+  margin-left: 0; /* Align closer to the text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect: Slight Scale and Shadow */
+.social-icons .react-social-icon:hover {
+  transform: scale(1.15); /* Slightly scale up the icons */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Add subtle shadow on hover */
+}
+
+/* Payment Methods Section */
+.payment-methods {
+  grid-column: span 4; /* Make the payment section span all columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px; /* Add some space from the FAQ section */
+}
+
+/* Payment Methods Section */
+.payment-methods {
+  grid-column: span 4; /* Make the payment section span all columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* Add some space from the FAQ section */
+  margin-left: 50px; /* Adjust this value to move the section further to the right */
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: flex-start; /* Align icons to the left within their container */
+  margin-left: 1000px; /* Adjust this value to move icons more to the right */
+  gap: 10px; /* Space between the icons */
+}
+
+.payment-icons svg {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-icons svg:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .footer-section {
+    grid-template-columns: 1fr 1fr; /* Adjust grid to two columns on smaller screens */
+  }
+}

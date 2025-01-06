@@ -1,0 +1,134 @@
+/* New Arrivals Container */
+.new-arrivals-container {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f4f4f4; /* Optional: add a light background color */
+  }
+  
+  /* New Arrivals Heading */
+  .new-arrivals-heading {
+    font-size: 3rem;
+    font-family: "Pirata One", serif;
+    color: #C0353C; /* Red color */
+    margin-top: 30px; /* Adds gap between the divider image and heading */
+    margin-bottom: 30px; /* Optional: adds space below the heading */
+  }
+  
+  /* Section Content */
+  .new-arrivals-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Products Grid */
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3x grid for products */
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 30px; /* Optional: space between grid and the heading */
+  }
+  
+  /* Product Card */
+  .product-card {
+    text-align: center;
+    border: 2px solid #C0353C; /* Red border color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Product Image */
+  .product-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  /* Product Name */
+  .product-name {
+    font-size: 1.25rem;
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Product Rating (Stars) */
+  .product-rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 1.25rem;
+  }
+  
+  /* Product Price and Discount */
+  .product-price-discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    font-family: "Jaini Purva", serif;
+    color: #C0353C; /* Red for price */
+    text-decoration: line-through;
+  }
+  
+  .product-discount {
+    font-size: 1.25rem;
+    font-family: "Jaini Purva", serif;
+    color: green;
+  }
+  
+  /* Discount Percentage Box */
+  .discount-percent {
+    background-color: #C0353C;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: "Jaini Purva", serif;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+  }
+  
+  /* View All Button */
+  .view-all-button {
+    padding: 12px 30px;
+    background-color: #C0353C;
+    color: yellow;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: "Pirata One", serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 30px;
+  }
+  
+  .view-all-button:hover {
+    background-color: #d9534f;
+    transform: scale(1.05);
+  }
+  

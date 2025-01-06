@@ -1,0 +1,171 @@
+/* Wrapper to align with Customers section */
+.stay-connected-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Light background to match overall theme */
+    padding: 40px 0;
+  }
+  
+  /* Box styling */
+  .stay-connected-box {
+    background-color: #C0353C; /* Red box */
+    width: 80%; /* Aligns with Customers section */
+    max-width: 1200px; /* Matches the width of other sections */
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Content Layout */
+  .stay-connected-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  /* Left Section */
+  .stay-connected-left {
+    flex: 1;
+    margin-right: 20px; /* Space between the text and the input box */
+    margin-left: 20px; /* Shifting the left section towards the center */
+    text-align: left;
+  }
+  
+  /* Right Section */
+  .stay-connected-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px; /* Shifting the right section towards the center */
+  }
+  
+  /* Heading */
+  .stay-connected-heading {
+    font-size: 2.5rem;
+    font-family: "Pirata One", serif;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Description Text */
+  .stay-connected-text {
+    font-size: 1.2rem;
+    font-family: "Jaini Purva", serif;
+    margin-bottom: 30px;
+    color: #fff; /* White text */
+    text-align: left;
+  }
+  
+  /* Subscription Form */
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Email Input Container */
+  .email-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff; /* White background for input */
+    border-radius: 30px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-bottom: 20px; /* Space between input and subscribe button */
+  }
+  
+  /* Email Icon */
+  .email-icon {
+    color: #C0353C; /* Red icon color */
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  /* Email Input */
+  .email-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    font-family: "Jaini Purva", serif;
+    color: #333;
+    background: none;
+  }
+  
+  /* Placeholder Color */
+  .email-input::placeholder {
+    color: #aaa;
+  }
+  
+/* Subscribe Button */
+.subscribe-button {
+    background-color: #f8f8f8; /* Off-white button background */
+    color: #C0353C; /* Red text */
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-family: "Pirata One", serif;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #e0e0e0; /* Slightly darker off-white on hover */
+    transform: scale(1.05);
+  }
+  
+  /* Wrapper for Stay Connected */
+.stay-connected-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Same light background as the rest */
+    padding: 40px 0;
+    margin-bottom: 0; /* Remove any bottom margin to join with footnote */
+  }
+  
+  /* Stay Connected Box Styling */
+  .stay-connected-box {
+    background-color: #C0353C; /* Red box */
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0; /* Ensures no space below */
+  }
+  
+  /* Wrapper for Footnote */
+  .footnote-wrapper {
+    background-color: #C0353C; /* Same red background as Stay Connected */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0; /* Remove any margin from the top */
+  }
+  
+  /* Footnote Text Styling */
+  .footnote-text {
+    font-size: 1rem;
+    font-family: "Jaini Purva", serif;
+    color: white;
+  }
+  

@@ -1,0 +1,136 @@
+/* Best Seller Bar */
+.best-seller-bar {
+  width: 100%;
+  height: 150px;
+  background-image: url('../../assets/BestSeller/bestseller.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-seller-heading {
+  font-size: 3rem;
+  font-family: "Pirata One", serif;
+  color: #C0353C; /* Red color */
+  text-align: center;
+}
+
+/* Divider Positioned on Background */
+.divider-on-background {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: auto;
+  z-index: 1;
+}
+
+/* Section Content with Background */
+.section-background {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  margin: 0;
+}
+
+/* Section Content */
+.section-content {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Section Description */
+.section-description {
+  font-size: 1.5rem;
+  font-family: "Jaini Purva", system-ui;
+  color: rgb(215, 4, 4);
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+/* Products Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3x grid */
+  gap: 20px;
+  margin: 20px 0;
+  justify-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers the text inside product cards */
+  max-width: 90%; /* Ensures the grid is not too wide */
+  margin-left: auto;
+  margin-right: auto; /* Centers the entire grid */
+}
+
+
+
+/* Product Card */
+.product-card {
+  text-align: center;
+  border: 2px solid #C0353C; /* Red border color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Product Card */
+.product-card:hover {
+  transform: translateY(-10px); /* Moves the card up */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+}
+
+/* Product Image */
+.product-image {
+  width: 295px; /* Adjusted to make images smaller */
+  height: 298px;
+  border-radius: 8px;
+}
+
+/* Product Label */
+.product-label {
+  font-size: 1rem;
+  font-family: "Jaini Purva", serif;
+  color: #333; /* Dark gray for labels */
+  margin-top: 10px; /* Space between image and label */
+}
+
+/* Centered Button */
+.center-button {
+  padding: 12px 30px;
+  background-color: #C0353C;
+  color: yellow;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-family: "Pirata One", serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 30px;
+}
+
+.center-button:hover {
+  background-color: #d9534f;
+  transform: scale(1.05);
+}
+
+/* End Divider */
+.divider-end-image {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  margin-top: -25px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
